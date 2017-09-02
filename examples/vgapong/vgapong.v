@@ -99,6 +99,8 @@ module vgapong (
 
 	ball  ball_inst(
 		.clk(clk),
+		.vcount_ov(vcount_ov),
+		.hcount_ov(hcount_ov),
 		.hcount(hcount),  // VGA horizontal counter
 		.vcount(vcount),  // VGA vertical counter
 		.drawBall(drawBall),
